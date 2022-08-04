@@ -15,6 +15,7 @@ public class Numero {
     public void asignarNumero(int n){
         num = n;
     }
+    
     public String isPositivo(){
         String mess = new String();
         if (num>0){
