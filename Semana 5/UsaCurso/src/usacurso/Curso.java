@@ -198,7 +198,7 @@ public class Curso {
     
    
     
-    public void mostrarResultado(int n_Est){
+    public String mostrarResultado(){
         
         String msg = "La mayor nota es " + calificacionMax + " y pertenece al estudiante " +nombreApellidoMax+ "\n" +
                      "La menor nota es " + calificacionMin + " y pertenece al estudiante " +nombreApellidoMin + "\n" +
@@ -206,7 +206,7 @@ public class Curso {
                      "Cantidad que perdieron " + cantPierden + "\n" +
                      "Cantidad que ganaron " + cantGanan;             
                         
-        IO.show(msg);
+        return msg;
     }
     
     public void gestionar(){
@@ -216,7 +216,9 @@ public class Curso {
         calcularNotaMin(n_Est);        
         contarCantGan(n_Est);
         contarCantPier(n_Est);
-        mostrarResultado(n_Est);
+        String msg = mostrarResultado();
+        
+        IO.show(msg);
         
     }
     
