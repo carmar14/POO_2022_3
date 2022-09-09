@@ -216,8 +216,7 @@ public class Curso {
         calcularNotaMin(n_Est);        
         contarCantGan(n_Est);
         contarCantPier(n_Est);
-        String msg = mostrarResultado();
-        
+        String msg = mostrarResultado();        
         IO.show(msg);
         
     }
