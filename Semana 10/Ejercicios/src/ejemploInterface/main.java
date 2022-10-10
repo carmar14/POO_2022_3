@@ -15,6 +15,7 @@ import javax.swing.JOptionPane;
 public class main {
     
     public static void main(String[] args){
+       
         Figura cir = new Circulo(2.0);
         Figura cuad = new Cuadrado(3.0);
         
