@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package peajes;
+package Peajes;
 
 /**
  *
- * @author katherin.duque
+ * @author alfon
  */
-public class ManejarPeajes {
+public class UsaMPeaje {
+
+    public static void main(String args[]){
+        MPeaje me;
+        me = new MPeaje();
+        me.gestionar();
+    }
     
 }

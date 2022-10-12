@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package peajes;
+package ParcialPeajes;
 
 /**
  *
- * @author katherin.duque
+ * @author alfon
  */
-public class Moto {
+public class UsaEmpleaPeaje {
+
+    public static void main(String args[]){
+        EmpleaPeaje me;
+        me = new EmpleaPeaje();
+        me.gestionar();
+    }
     
 }
