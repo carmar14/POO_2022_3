@@ -5,7 +5,7 @@ public class EscribeArchivoCoches
     public static void main (String [] args)
     {
         Coche c1 = new Coche ("Pedro", "Chevrolet", 1999);
-        Coche c2 = new Coche ("Luisa", "Honda", 2004);
+        Coche c2 = new Coche ("Luisa", "Hyundai", 2004);
 
         try{
             FileOutputStream salArch = new FileOutputStream ("coches.dat");

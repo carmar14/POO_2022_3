@@ -1,4 +1,4 @@
-package numerosaleatorios;
+package numeroaleatorios;
 import javax.swing.*;
 import java.awt.*;
 public class VentanaNumeros extends JFrame{

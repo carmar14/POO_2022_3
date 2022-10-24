@@ -1,4 +1,4 @@
-package numerosaleatorios;
+package numeroaleatorios;
 
 public class Main {
     public static void main(String args[]){

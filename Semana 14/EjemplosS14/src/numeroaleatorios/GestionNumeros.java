@@ -1,4 +1,4 @@
-package numerosaleatorios;
+package numeroaleatorios;
 import java.awt.event.*;
 public class GestionNumeros implements ActionListener{
     private VentanaNumeros vn;

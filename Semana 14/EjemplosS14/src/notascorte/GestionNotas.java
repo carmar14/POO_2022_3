@@ -1,4 +1,4 @@
-package notascorteG53;
+package notascorte;
 import java.awt.event.*;
 public class GestionNotas implements ActionListener{
     private VentanaNotas vn;

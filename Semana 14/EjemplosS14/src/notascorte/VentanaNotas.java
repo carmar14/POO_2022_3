@@ -1,4 +1,4 @@
-package notascorteG53;
+package notascorte;
 import javax.swing.*;
 import java.awt.*;
 public class VentanaNotas extends JFrame{
@@ -88,7 +88,6 @@ public class VentanaNotas extends JFrame{
         JOptionPane.showMessageDialog(this,
                 "Desarrollado por:\n"+
                 "Universidad Autónoma de Occidente\n"+
-                "Facultad de Ingeniería\n"+
                 "POO");
     }
 }
