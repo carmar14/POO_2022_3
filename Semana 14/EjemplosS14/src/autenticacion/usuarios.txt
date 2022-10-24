@@ -1,0 +1,4 @@
+juan#info2011#docente#Juan Manuel#Reyes García
+pedro#uniautonoma#estudiante#Pedro Pablo#Mora Gil
+andres#examen#estudiante#Andres Mauricio#Montes
+miguel#12345#docente#Miguel#Paniagua
