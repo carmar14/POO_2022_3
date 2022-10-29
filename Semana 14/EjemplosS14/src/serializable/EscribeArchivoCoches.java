@@ -8,7 +8,7 @@ public class EscribeArchivoCoches
         Coche c2 = new Coche ("Luisa", "Hyundai", 2004);
 
         try{
-            FileOutputStream salArch = new FileOutputStream ("coches.dat");
+            FileOutputStream salArch = new FileOutputStream ("src/serializable/coches.dat");
             ObjectOutputStream salStream = new ObjectOutputStream (salArch);
 
             salStream.writeObject (c1);

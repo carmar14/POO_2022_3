@@ -5,7 +5,7 @@ public class LeeArchivoCoches
     public static void main (String [] args)
     {
         try{
-            FileInputStream entArch = new FileInputStream ("coches.dat");
+            FileInputStream entArch = new FileInputStream ("src/serializable/coches.dat");
             ObjectInputStream entStream = new ObjectInputStream (entArch);
 
             Coche c1 = (Coche) entStream.readObject ();
